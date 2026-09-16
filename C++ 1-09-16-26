@@ -1,1 +1,26 @@
+#include <iostream>
+#include <string>
 
+using namespace std;
+
+int main() {
+    // -- Declaring variables of diff data types --
+    int age = 20;             // whole number
+    double price = 19.99;     // decimal number (double precision)
+    float weight = 65.50f;    // decimal number (single precision, using the 'f')
+    char grade = 'A';         // single quotes for single character
+    bool isStudent = true;    // true or false
+    string name = "Maria";     // text
+
+    // --- Output using cout -----
+    cout << "Name: " << name << endl;         // Output: Maria
+    cout << "Age: " << age << endl;           // Output: 20
+    cout << "Price: " << price << endl;       // Output: 19.99
+    cout << "Weight: " << weight << endl;     // Output: 65.5
+    cout << "Grade: " << grade << endl;       // Output: A
+    
+    // Using boolalpha changes 1/0 to true/false in the output
+    cout << "Is Student? " << boolalpha << isStudent << endl; // Output: true
+
+    return 0;
+}
