@@ -1,1 +1,44 @@
+C++
+Data Types:
+int- whole number
+Double-decimal value
+char- single character string
+bool- True/False
+string- a set of string character
 
+// Single Comment
+/* */ Multiple Comment
+
+
+#include<iostream> give access for std::cout, std::cin
+int main()  {
+        std::cout <<"Hello,World!"<<std::endl;
+        return 0;
+
+}
+
+>>Hello, World!
+
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main() {
+  //--Declaring variables of diff data types--
+        int    age          = 20;     // whole number
+      
+       double price = 19.99; // decimal number (double precision)
+       float weight = 65.50; // decimal number (single precision, using
+the'f')
+        char grade = 'A'; // singles quotes for single character
+        bool isStudent = true; // True or False
+        string name = "Maria"; // text
+  //---Output using cout-----
+       cout <<"Name: "<<name <<endl; //output:Maria
+       cout << "Ages: "<<age <<endl; //output:20
+       cout << "Price: "<<price <<endl; //output:19.99
+       cout << "Weight: "<<weight <<endl; //output:65.50
+       cout << "Grade: "<<grade << endl; //output:A
+       cout << "Is Student? " <<isStudent << endl; //True or
+ False //output:True
+}
